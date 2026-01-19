@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* Header */
+.top-header {
+    background-color: #f5e6a8;
+    text-align: center;
+    padding: 15px;
+}
+
+.top-header h1 {
+    font-size: 36px;
+}
+
+/* Hero */
+.hero {
+    height: 300px;
+    background: url("https://ejmse4m6ybw.exactdn.com/resources/blog/esg-planet_resize.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Navigation */
+.nav {
+    background-color: #f5e6a8;
+    text-align: right;
+    padding: 10px 30px;
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Content */
+.content {
+    padding: 40px 60px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.card.reverse {
+    flex-direction: row-reverse;
+}
+
+.card img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.text h3 {
+    color: #1e90ff;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.text p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #a56a00;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+.instagram {
+    background-color: #ff00aa;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+h1 img{
+  width:40px;
+  height:40px;
+}
